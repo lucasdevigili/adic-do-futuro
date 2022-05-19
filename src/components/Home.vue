@@ -101,6 +101,7 @@ export default {
 
   .photo {
     height: 300px;
+    width: auto;
   }
 }
 
@@ -117,7 +118,8 @@ export default {
   }
 
   #right {
-    width:  100vw;
+    height: 34ch;
+    width: 100vw;
     margin-top: 85vh;
     display: flex;
     justify-content: center;
@@ -128,10 +130,28 @@ export default {
     height: 350px;
   }
 
-  #box{
+  #box {
     border-radius: 0px 0px 20px 20px;
     height: 250px;
     width: 300px;
+  }
+}
+
+@media (min-width: 1456px) {
+    #box {
+    height: 700px;
+    width: 750px;
+  }
+.text {
+  max-width: 900px;
+}
+
+  .p {
+    font-size: 70px;
+  }
+
+  .photo {
+    height: 800px;
   }
 }
 </style>

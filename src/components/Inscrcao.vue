@@ -10,6 +10,7 @@
           frameborder="0"
           marginheight="0"
           marginwidth="0"
+          class="form"
         >Carregando…</iframe>
       </div>
     </main>
@@ -35,12 +36,18 @@ export default {
 
 .title {
   margin: 0px;
-   
 }
 
 #main {
   height: 85vh;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
+}
+
+@media (min-width: 1456px) {
+  .form {
+    width: 2000px;
+    height: 900px;
   }
+}
 </style>

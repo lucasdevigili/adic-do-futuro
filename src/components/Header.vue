@@ -66,4 +66,18 @@ ul {
 }
 }
 
+@media (min-width: 1456px) {
+    .title {
+  font-size: 70px;
+}
+
+.span {
+  font-size: 45px;
+}
+
+.li {
+  font-size: 45px;
+}
+}
+
 </style>

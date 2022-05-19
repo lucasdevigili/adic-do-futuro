@@ -10,6 +10,7 @@
           style="border:0;"
           allowfullscreen
           loading="lazy"
+          class="map"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
@@ -43,5 +44,12 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 1456px) {
+    .map{
+          width:2000px;
+          height:900px;
+    }
 }
 </style>
