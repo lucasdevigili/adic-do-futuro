@@ -1,12 +1,12 @@
 <template>
-  <Home />
+  <Inscrcao />
 </template>
 
 <script lang="ts">
-import Home from '@/components/Home.vue'
+import Inscrcao from '@/components/Inscrcao.vue'
 export default {
   components: {
-    Home,
+    Inscrcao,
   }
 }
 </script>

@@ -1,12 +1,12 @@
 <template>
-  <Home />
+  <Localizacao />
 </template>
 
 <script lang="ts">
-import Home from '@/components/Home.vue'
+import Localizacao from '@/components/Localizacao.vue'
 export default {
   components: {
-    Home,
+    Localizacao,
   }
 }
 </script>
