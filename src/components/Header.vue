@@ -52,6 +52,10 @@ ul {
   font-size: 20px;
 }
 
+.li:hover {
+  color: rgb(179, 179, 179);
+}
+
 @media (max-width: 425px) {
   .title {
   font-size: 25px;
