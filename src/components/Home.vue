@@ -12,7 +12,7 @@
               <p class="p">II ADIC</p>
               <br />
               <br />
-              <p class="p">04/05 em Indaial - SC</p>
+              <p class="p">04/06 em Indaial - SC</p>
             </div>
           </div>
         </div>
